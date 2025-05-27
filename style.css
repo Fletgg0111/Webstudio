@@ -1,6 +1,31 @@
-:root{
---background-color: rgba(47, 48,58,);
---background-color: rgba(245,244,250);
---background-color: rgba(255, 255, 255);
-font-family: "Roboto";
+.container {
+outline: 1px solid red ;
+margin: 0 auto;
+width: 1100px;
+
 }
+.header {
+
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  max-width: 1440px;
+  background-image:initial url(./img/header-background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content:center;
+  gap: 20;
+  flex-wrap: nowrap;
+}
+.navigation-list {
+    display: flex
+}
+.a-nav-login{
+  display: flex;
+}
+.header-item-lang{
+  display: flex;
+}
+
